@@ -19,6 +19,7 @@ space-around:周囲に等しい間隔を表示
 /*
 align-items
 アイテムを垂直方向に並べる
+アイテム全体としての配置を決める
 
 flex-start:上部に並ぶ
 flex-end:下部に並ぶ
@@ -27,7 +28,69 @@ baseline:ベースラインに表示
 stretch:大きさに合うように並ぶ
 */
 
+/*
+align-self
+個別のアイテムに設定
+
+align-itemsと同じ
+*/
+
 
 /*
+flex-directon
+アイテムが配置される方向を決定する
 
+row:文章と同じ方向に配置
+row-reverse:文章と逆の方向に配置
+column:上から下に向かって配置
+column-reverse:したから上に向かって配置
+
+columnのとき逆になる
+justify-content / align-itens
+*/
+
+
+
+/*
+order
+順番を変更
+
+defaultは0
+-も使える
+*/
+
+
+/*
+flex-wrap
+アイテムを広げる
+
+nowrap:全部が一つの行にフィット
+wrap:他の行へ折り返し
+wrap-reverse:アイテムが逆順になって他の行へ折り返し
+*/
+
+
+/*
+flex-flow
+flex-directionとflex-wrapの統合版
+
+row wrap:
+column wrap
+など
+*/
+
+
+
+
+/*
+align-content
+複数の行が他の行と同居距離を取り広がるのかを指定
+行間の余白を決める
+
+flex-start:上部につめられる
+flex-end:下部につめられる
+center:中央につめられる
+space-between:間に等しい間隔
+space-around:周囲に等しい間隔
+stretch:引き延ばされる
 */
