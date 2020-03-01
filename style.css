@@ -1,3 +1,33 @@
 .f-container {
     background-color: blue;
+    display: flex;
+    justify-content: ;
 }
+
+/*
+justify-content
+アイテムを水平方向に並べる
+
+flex-start:左側に並ぶ
+flex-end:右側に並ぶ
+center:中央に並ぶ
+space-between:間に等しい間隔を表示
+space-around:周囲に等しい間隔を表示
+*/
+
+
+/*
+align-items
+アイテムを垂直方向に並べる
+
+flex-start:上部に並ぶ
+flex-end:下部に並ぶ
+center:垂直方向中央に並ぶ
+baseline:ベースラインに表示
+stretch:大きさに合うように並ぶ
+*/
+
+
+/*
+
+*/
